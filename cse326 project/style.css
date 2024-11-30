@@ -1,0 +1,225 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Poppins, sans-serif;
+}
+.navbar{
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    
+}
+.logo{
+    padding-left: 20px;
+}
+.nav{
+   flex: 1;
+   text-align: right;
+
+}
+.nav ul{
+    display: inline-block;
+    list-style-type: none;
+}
+.nav ul li{
+    display:inline-block;
+    margin-right: 20px;
+
+}
+a{
+    text-decoration: none;
+    color: #555;
+}
+.container{
+    max-width: 1300px;
+    margin: auto;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.col-2{
+    flex-basis: 50%;
+    min-height: 300px;
+
+}
+.col-2 img{
+    max-width: 100%;
+    padding-right: 10px;
+    
+}
+.col-2 h1{
+    font-size: 40px;
+    line-height: 50px;
+    margin:25px;
+}
+.btn{
+    display: inline-block;
+    background-color: #ff523b;
+    color: #fff;
+    padding: 8px 30px;
+    margin: 30px 40px;
+    border-radius: 30px;
+}
+.btn:hover{
+    background: #563434;
+}
+.col-2 p{
+    font-size: 15px;
+    padding-left: 30px;
+}
+.header{
+    background: radial-gradient(circle, #e0f7fa 0%, #b2ebf2 100%);
+}
+/* ------featured cat----- */
+.row{
+    display: flex;
+}
+.catogries{
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
+.bestsell{
+    font-size: 20px;
+    font-weight: 700;
+    text-align: center;
+    margin-top: 30px;
+    
+}
+
+.small{
+    max-width: 1080px;
+    margin: auto;
+    padding-left: 25px;
+}
+.products1{
+    margin: 10px;
+    max-width: 1080px;
+
+}
+.featuredpro{
+    text-align: center;
+    margin-left: 30px;
+    font-size: 35px;
+    font-weight: 600;
+
+
+}
+
+
+.products{
+    margin-left: 100px;
+    padding-left: 20px;
+}
+.price{
+    display:flex;
+    margin: auto;
+}
+.pro{
+    padding: 30px;
+
+
+}
+.pro:hover{
+    transform: scale(1.2)
+}
+.EXCLUSIVE{
+    margin: 70px 0;
+    display: flex;
+}
+.EXCLUIMG{
+    padding-left: 100px;
+    margin: 70px;
+}
+.exctext{
+    margin: 120PX;
+
+}
+.exctext H1{
+    margin-bottom:20PX;
+}
+.exctext H3{
+    margin-bottom:20PX;
+}
+.exclusive1{
+    background:radial-gradient(circle, #1E90FF, #FFFFFF) ;
+}
+/* -------customer review----- */
+.customerrev{
+    background: linear-gradient(to bottom, #f7f7f7, #ffffff);
+}
+.custname{
+    display: flex;
+    padding-left: 130px;
+    padding-right: 130px;
+
+}
+.cus1{
+    margin: 20px;
+    padding: 30px;
+    width: 400px;
+    border: 2px solid black;
+    border-radius: 20%;
+}
+.custi{
+    text-align: center;
+    font-weight: 700;
+    font-size: 50px;
+    margin-bottom: 40px;
+}
+
+.footer {
+    background-color: #333;
+    color: white;
+    padding: 40px 20px;
+    margin-top: 30px;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 200px;
+    margin: 10px;
+}
+
+.footer-section h4 {
+    margin-bottom: 15px;
+    color: #f39c12;
+}
+
+.footer-section p {
+    font-size: 0.9em;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin: 10px 0;
+}
+
+.footer-section a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 0.8em;
+}
